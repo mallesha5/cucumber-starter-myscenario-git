@@ -9,7 +9,7 @@ public class OrangeHRMDashboard extends PageObject {
 	
 	public void loginVerified()
 	{
-		System.out.println(getDriver().getTitle());
+		System.out.println("The page title is : "+getDriver().getTitle());
 		Assert.assertTrue(getDriver().getTitle().contains("OrangeHRM"));
 	}
 	
